@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kaushan Script", cursive;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
+  margin: 6px 0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 22px;
+}
